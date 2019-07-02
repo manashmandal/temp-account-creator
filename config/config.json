@@ -1,0 +1,21 @@
+{
+    "urls" : {
+        "oreilly" : {
+            "url" : "https://www.oreilly.com/member/register/",
+            "firstNameSelector" : "input[name='first_name']",
+            "lastNameSelector" : "input[name='last_name']",
+            "emailSelector" : "input[name='email']",
+            "passwordSelector" : "input[name='password']",
+            "registerButtonSelector" : "button[class='src-Button-button src-Button-primary src-Button-medium gridFullWidth--1yKPt']"
+        }
+    },
+
+    "mailAPI" : {
+        "getNewMail" : "https://10minutemail.com/10MinuteMail/resources/session/address",
+        "checkMailbox" : "https://10minutemail.com/10MinuteMail/resources/messages/messagesAfter/0",
+        "timeLeft" : "https://10minutemail.com/10MinuteMail/resources/session/secondsLeft",
+        "resetMail" : "https://10minutemail.com/10MinuteMail/resources/session/reset"
+    },
+
+    "nameGeneratorAPI" : "https://uinames.com/api/"
+}
